@@ -1,0 +1,6 @@
+sv xil_defaultlib --include "../../../../Adder_Tree_Microblaze.srcs/sources_1/bd/designAXIslave/ipshared/b65a" --include "../../../../Adder_Tree_Microblaze.srcs/sources_1/bd/designAXIslave/ipshared/ec67/hdl" \
+"../../../bd/designAXIslave/ipshared/6393/src/coprocessor.sv" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

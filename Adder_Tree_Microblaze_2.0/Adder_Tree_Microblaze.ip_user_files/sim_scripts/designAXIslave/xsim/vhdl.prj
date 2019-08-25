@@ -1,0 +1,23 @@
+vhdl xil_defaultlib  \
+"../../../bd/designAXIslave/ip/designAXIslave_microblaze_0_0/sim/designAXIslave_microblaze_0_0.vhd" \
+"../../../bd/designAXIslave/ip/designAXIslave_mdm_1_0/sim/designAXIslave_mdm_1_0.vhd" \
+"../../../bd/designAXIslave/ip/designAXIslave_clk_wiz_1_0/designAXIslave_clk_wiz_1_0_sim_netlist.vhdl" \
+"../../../bd/designAXIslave/ip/designAXIslave_rst_clk_wiz_1_100M_0/sim/designAXIslave_rst_clk_wiz_1_100M_0.vhd" \
+"../../../bd/designAXIslave/ip/designAXIslave_axi_uartlite_0_0/sim/designAXIslave_axi_uartlite_0_0.vhd" \
+"../../../bd/designAXIslave/ip/designAXIslave_xbar_0/designAXIslave_xbar_0_sim_netlist.vhdl" \
+"../../../bd/designAXIslave/ip/designAXIslave_dlmb_v10_0/sim/designAXIslave_dlmb_v10_0.vhd" \
+"../../../bd/designAXIslave/ip/designAXIslave_ilmb_v10_0/sim/designAXIslave_ilmb_v10_0.vhd" \
+"../../../bd/designAXIslave/ip/designAXIslave_dlmb_bram_if_cntlr_0/sim/designAXIslave_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/designAXIslave/ip/designAXIslave_ilmb_bram_if_cntlr_0/sim/designAXIslave_ilmb_bram_if_cntlr_0.vhd" \
+"../../../bd/designAXIslave/ip/designAXIslave_lmb_bram_0/designAXIslave_lmb_bram_0_sim_netlist.vhdl" \
+"../../../bd/designAXIslave/sim/designAXIslave.vhd" \
+"../../../bd/designAXIslave/ipshared/6393/hdl/AXI_Adder_Tree_v1_0_S00_AXI.vhd" \
+"../../../bd/designAXIslave/ipshared/6393/src/Device.vhd" \
+"../../../bd/designAXIslave/ipshared/6393/src/bcddigit.vhd" \
+"../../../bd/designAXIslave/ipshared/6393/src/binarybcd.vhd" \
+"../../../bd/designAXIslave/ipshared/6393/src/commanddecoder.vhd" \
+"../../../bd/designAXIslave/ipshared/6393/src/display.vhd" \
+"../../../bd/designAXIslave/ipshared/6393/hdl/AXI_Adder_Tree_v1_0.vhd" \
+"../../../bd/designAXIslave/ip/designAXIslave_AXI_Adder_Tree_0_1/sim/designAXIslave_AXI_Adder_Tree_0_1.vhd" \
+
+nosort
