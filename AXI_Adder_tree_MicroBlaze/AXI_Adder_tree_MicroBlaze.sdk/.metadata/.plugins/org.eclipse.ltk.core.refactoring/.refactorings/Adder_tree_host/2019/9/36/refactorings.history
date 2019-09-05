@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Adder_tree_host/src/Adder_tree_host&apos; to &apos;Adder_tree_host.c&apos;" description="Rename resource &apos;Adder_tree_host&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Adder_tree_host" name="Adder_tree_host.c" stamp="1567532537720" updateReferences="true"/>
+</session>

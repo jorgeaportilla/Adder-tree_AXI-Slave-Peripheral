@@ -1,0 +1,25 @@
+14:40:41 **** Build of configuration Debug for project Adder_tree (device) ****
+make all 
+Building file: ../src/adder_tree.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adder_tree.o" -I../../timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/adder_tree.d" -MT"src/adder_tree.o" -o "src/adder_tree.o" "../src/adder_tree.c"
+Finished building: ../src/adder_tree.c
+ 
+Building file: ../src/platform.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: Adder_tree (device).elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Adder_tree (device).elf"  ./src/adder_tree.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Adder_tree (device).elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size Adder_tree (device).elf  |tee "Adder_tree (device).elf.size"
+/bin/sh: 1: Syntax error: "(" unexpected
+makefile:43: recipe for target 'Adder_tree (device).elf.size' failed
+make: *** [Adder_tree (device).elf.size] Error 2
+
+14:40:42 Build Finished (took 1s.91ms)
+

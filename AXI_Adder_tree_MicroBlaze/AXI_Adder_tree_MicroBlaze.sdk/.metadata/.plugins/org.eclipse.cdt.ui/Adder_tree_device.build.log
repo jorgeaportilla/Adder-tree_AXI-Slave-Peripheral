@@ -1,0 +1,21 @@
+02:36:58 **** Auto Build of configuration Debug for project Adder_tree_device ****
+make all 
+Building file: ../src/adder_tree.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/adder_tree.o" -I../../timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/adder_tree.d" -MT"src/adder_tree.o" -o "src/adder_tree.o" "../src/adder_tree.c"
+Finished building: ../src/adder_tree.c
+ 
+Building target: Adder_tree_device.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../timer_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Adder_tree_device.elf"  ./src/adder_tree.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Adder_tree_device.elf
+ 
+Invoking: MicroBlaze Print Size
+mb-size Adder_tree_device.elf  |tee "Adder_tree_device.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  94092	   1438	   5254	 100784	  189b0	Adder_tree_device.elf
+Finished building: Adder_tree_device.elf.size
+ 
+
+02:37:00 Build Finished (took 1s.168ms)
+

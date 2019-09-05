@@ -1,0 +1,14 @@
+14:43:03 **** Auto Build of configuration Debug for project Adder_tree_host ****
+make all 
+Building file: ../src/Adder_tree_host.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Adder_tree_host.o" -I../../timer_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Adder_tree_host.d" -MT"src/Adder_tree_host.o" -o "src/Adder_tree_host.o" "../src/Adder_tree_host.c"
+../src/Adder_tree_host.c:11:10: fatal error: platform.h: No such file or directory
+ #include "platform.h"
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/Adder_tree_host.o] Error 1
+src/subdir.mk:21: recipe for target 'src/Adder_tree_host.o' failed
+
+14:43:04 Build Finished (took 917ms)
+
